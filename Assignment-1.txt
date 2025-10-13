@@ -1,0 +1,49 @@
+Assignment – 1
+ 1.
+FrontendBackendFull Stack
+is what users see and interact with on a website — the design, buttons, forms, etc.
+Example: The homepage of Amazon — the product images, search bar, and buttons.
+is what happens behind the scenes — it handles data, logic, and communication with databases.means working on both frontend and backend.
+Example: A full-stack developer could design the Amazon product page and also write the code that saves your orders to the database.
+  2. 
+ 
+3. You type a web address (like www.google.com).
+         The browser sends a request to the web server.
+     The server finds the page and sends back files (HTML, CSS,        
+     JavaScript).
+    The browser renders those files — showing text, images, and   
+     layout on your screen.
+
+4.  VS Code – main text editor to write code.
+  Web Browser (like Chrome) – to test and view your website.
+  Node.js (optional) – helps run JavaScript outside a browser for backend work.
+  Git – keeps track of code changes.
+  Live Server (VS Code extension) – shows your webpage instantly as you edit.
+
+5. A web server is a computer that stores and delivers web pages to users when they request them.
+Examples: Apache, Nginx, Microsoft IIS, and LiteSpeed.
+
+*     6. Frontend Developer: Designs how the website looks and feels.
+* Backend Developer: Handles the data and logic behind the website.
+* Database Administrator (DBA): Manages the storage, safety, and structure of data in the database.
+
+
+7. To set up:
+1. Install VS Code from its website.
+2. Add extensions for HTML, CSS, JavaScript, and Live Server.
+3. Open a folder and create .html, .css, and .js files.
+4. Right-click the HTML file ? “Open with Live Server.
+
+
+
+
+	
+8. 
+Static WebsiteDynamic WebsiteSame content for everyone; no database connection.
+Example: A simple portfolio page.Content changes based on user input or data.
+Example: Facebook — everyone sees different posts.
+9.
+BrowserRendering EngineGoogle Chrome   BlinkMozilla Firefox   GeckoMicrosoft Edge   BlinkApple Safari  WebKitOpera   Blink
+10. 
+
+
