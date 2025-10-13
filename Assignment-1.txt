@@ -1,0 +1,137 @@
+Assignment – 1
+
+1. Explain the difference between frontend, backend, and full-stack development with
+suitable real-world examples.
+
+Frontend is what users see and interact with on a website — the design, buttons, forms, etc.
+Example: The homepage of Amazon — the product images, search bar, and buttons.
+Backend is what happens behind the scenes — it handles data, logic, and communication with databases.
+Full Stack means working on both frontend and backend.
+Example: A full-stack developer could design the Amazon product page and also write the code that saves your orders to the database.
+2. Create a simple diagram showing how the client-server model works in web architecture.
+
+
+[Client: Web Browser]
+           |
+           | 1) DNS lookup (resolves domain -> IP)
+           | 2) HTTP request (GET/POST)
+           v
+   +-----------------------+
+   |      Web Server       |
+   |  (Receives HTTP Req)  |
+   +-----------------------+
+           |
+           | 3) Application / Backend logic
+           v
+   +-----------------------+
+   |   Application Server  |
+   | (processes request,   |
+   |  runs business logic) |
+   +-----------------------+
+           |
+           | 4) Database query (SQL / NoSQL)
+           v
+   +-----------------------+
+   |       Database        |
+   |  (stores/retrieves    |
+   |   data)               |
+   +-----------------------+
+
+
+
+ 
+ 
+3. Describe how a browser requests and displays a web page from a web server.
+ 
+ 
+    You type a web address (like www.google.com).
+    The browser sends a request to the web server.
+     The server finds the page and sends back files (HTML, CSS,        
+     JavaScript).
+    The browser renders those files — showing text, images, and   
+     layout on your screen.
+
+4. Identify and list the tools required to set up a web development environment. Explain the
+purpose of each.
+  VS Code – main text editor to write code.
+  Web Browser (like Chrome) – to test and view your website.
+  Node.js (optional) – helps run JavaScript outside a browser for backend work.
+  Git – keeps track of code changes.
+  Live Server (VS Code extension) – shows your webpage instantly as you edit.
+
+5.Explain what a web server is and give examples of commonly used servers. 
+A web server is a computer that stores and delivers web pages to users when they request them.
+Examples: Apache, Nginx, Microsoft IIS, and LiteSpeed.
+
+6.Define the roles of a frontend developer, backend developer, and database administrator
+in a project.
+* Frontend Developer: Designs how the website looks and feels.
+* Backend Developer: Handles the data and logic behind the website.
+* Database Administrator (DBA): Manages the storage, safety, and structure of data in the database.
+
+
+7.Install VS Code and configure it for HTML, CSS, and JavaScript development. Take a
+screenshot of the setup.
+To set up:
+1. Install VS Code from its website.
+2. Add extensions for HTML, CSS, JavaScript, and Live Server.
+3. Open a folder and create .html, .css, and .js files.
+4. Right-click the HTML file ? “Open with Live Server.
+
+
+
+
+	
+8.Explain the difference between static and dynamic websites. Provide an example of
+each. 
+Static WebsiteSame content for everyone; no database connection.
+Example: A simple portfolio page.
+
+Dynamic WebsiteContent changes based on user input or data.
+Example: Facebook — everyone sees different posts.
+9.Research and list five web browsers. Explain how rendering engines differ between
+them.
+BrowserRendering EngineGoogle Chrome   BlinkMozilla Firefox   GeckoMicrosoft Edge   BlinkApple Safari  WebKitOpera   Blink
+10.Draw a labeled diagram showing the basic web architecture flow — client, server,
+database, and APIs.
+
++--------------------+
+                 |     Web Client     |
+                 | (Browser / Mobile) |
+                 +--------------------+
+                            |
+                            | 1) HTTP / HTTPS Request
+                            v
+                 +--------------------+
+                 |     Web Server     |
+                 | (Handles requests, |
+                 | serves static files)|
+                 +--------------------+
+                            |
+                            | 2) Forwards to backend logic via API calls
+                            v
+                 +--------------------+
+                 | Application Server |
+                 | (Business logic,   |
+                 | authentication,    |
+                 | data processing)   |
+                 +--------------------+
+                            |
+                            | 3) Queries / Updates via API or ORM
+                            v
+                 +--------------------+
+                 |     Database       |
+                 | (Stores and        |
+                 | retrieves data)    |
+                 +--------------------+
+                            ^
+                            |
+                            | 4) API Response (JSON / XML)
+                            |
+                 +--------------------+
+                 |   External APIs    |
+                 | (3rd-party APIs or |
+                 | microservices)     |
+                 +--------------------+ 
+
+
